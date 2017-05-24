@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:psd="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tuionf.psdpayview.MainActivity">
+
+    <com.example.tuionf.paypsdview.PayPsdInputView
+        android:id="@+id/password"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        psd:maxCount="6"
+        psd:rectAngle="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteY="202dp"
+        tools:layout_editor_absoluteX="111dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
